@@ -1,16 +1,13 @@
-## Hi there 👋
+# will035
 
-<!--
-**will035/will035** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Terminal typing “ls ~/projects”, followed by the names of three public projects.](assets/terminal.svg)
 
-Here are some ideas to get you started:
+I build Linux desktop tools and small applications that make technical ideas easier to explore. My public projects range from writing an ISO image to a USB drive to showing what happens when two database transactions compete for the last ticket.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected projects
+
+| Project | What you can try | Built with |
+| --- | --- | --- |
+| [LIFUX](https://github.com/will035/LIFUX) | Select an ISO image and a removable drive in a Linux desktop app. A separate writer handles disk access and reports progress to the interface. | C · GTK4 · CMake |
+| [Transact Lab](https://github.com/will035/transact-lab-v1) | Run two purchases against the same inventory, then compare the results with and without a row lock. | Node.js · PostgreSQL · SQL |
+| [Currency Calculator](https://github.com/will035/calculadora_de_divisas_python) | Convert between ten currencies in a Qt desktop interface. | Python · PySide6 |
