@@ -11,3 +11,7 @@ I build Linux desktop tools and small applications that make technical ideas eas
 | [LIFUX](https://github.com/will035/LIFUX) | Select an ISO image and a removable drive in a Linux desktop app. A separate writer handles disk access and reports progress to the interface. | C · GTK4 · CMake |
 | [Transact Lab](https://github.com/will035/transact-lab-v1) | Run two purchases against the same inventory, then compare the results with and without a row lock. | Node.js · PostgreSQL · SQL |
 | [Currency Calculator](https://github.com/will035/calculadora_de_divisas_python) | Convert between ten currencies in a Qt desktop interface. | Python · PySide6 |
+
+## Contribution activity
+
+![Snake tracing my GitHub contribution calendar.](assets/contributions.svg)
