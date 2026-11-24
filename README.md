@@ -17,7 +17,13 @@ Convert between ten currencies in a Qt desktop app that caches currency icons lo
 
 <img src="assets/toolbox.svg" width="336" alt="Linux, C, CMake, Python, Qt, Node.js and PostgreSQL" />
 
-## Contribution activity
+## GitHub activity
+
+![Isometric contribution calendar, commit contributions, active days and the most-used languages in my public repositories.](assets/dashboard.svg)
+
+Each column is one day. Taller columns mark higher activity on GitHub’s contribution scale. The dashboard refreshes daily.
+
+### Contribution snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/will035/will035/main/assets/contributions-dark.svg" />
