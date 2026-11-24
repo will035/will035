@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="148" viewBox="0 0 760 148" role="img" aria-labelledby="title">
+  <title id="title">will035 lists three public projects in a Linux terminal</title>
+  <style>
+    text { font-family: ui-monospace, monospace; }
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: type 1.3s steps(13,end) both; }
+      .result { animation: show .12s 1.35s both; }
+      @keyframes type { from { width: 0; } to { width: 156px; } }
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    }
+  </style>
+  <defs><clipPath id="typed"><rect class="reveal" x="192" y="54" width="156" height="36"/></clipPath></defs>
+  <rect width="760" height="148" rx="9" fill="#161616"/>
+  <text x="24" y="29" fill="#bbb" font-size="15">~/projects</text>
+  <path d="M0 43H760" stroke="#424242"/>
+  <g font-size="20" fill="#f4f4f4">
+    <text x="24" y="80">will035@linux$</text>
+    <text x="192" y="80" clip-path="url(#typed)" textLength="156" lengthAdjust="spacingAndGlyphs">ls ~/projects</text>
+  </g>
+  <text class="result" x="24" y="119" fill="#ccc" font-size="18">LIFUX/   transact-lab-v1/   calculadora_de_divisas_python/</text>
+</svg>
