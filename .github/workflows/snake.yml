@@ -1,0 +1,43 @@
+name: Contribution snake
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/snake.yml'
+  schedule:
+    - cron: '27 6 * * 1'
+permissions: {}
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+jobs:
+  draw:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/contributions.svg?color_snake=#777777&color_dots=#dedede,#bbbbbb,#999999,#666666,#333333
+      - name: Publish the animation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test -s assets/contributions.svg
+          if ! grep -Fq '(assets/contributions.svg)' README.md; then
+            printf '\n## Contribution activity\n\n![Snake tracing my GitHub contribution calendar.](assets/contributions.svg)\n' >> README.md
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/contributions.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh contribution animation'
+            gh auth setup-git
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
