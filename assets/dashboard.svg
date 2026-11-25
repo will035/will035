@@ -4,7 +4,7 @@
 <rect width="800" height="405" rx="14" fill="#0d1513"/>
 <g font-family="ui-monospace,monospace">
 <text x="25" y="31" font-size="18" fill="#e7f4ea">CONTRIBUTION SKYLINE</text>
-<text x="25" y="57" font-size="15" fill="#afc2b6">2025-11-23  /  2026-11-24</text>
+<text x="25" y="57" font-size="15" fill="#afc2b6">2025-11-23  /  2026-11-25</text>
 <polygon points="39.00,171.00 51.00,170.00 51.00,172.00 39.00,173.00" fill="#182820"/>
 <polygon points="44.00,165.00 51.00,170.00 51.00,172.00 44.00,167.00" fill="#15221b"/>
 <polygon points="32.00,166.00 44.00,165.00 51.00,170.00 39.00,171.00" fill="#23352d"/>
@@ -1106,9 +1106,12 @@
 <polygon points="731.00,115.20 743.00,114.20 743.00,124.20 731.00,125.20" fill="#21603b"/>
 <polygon points="736.00,109.20 743.00,114.20 743.00,124.20 736.00,119.20" fill="#16422b"/>
 <polygon points="724.00,110.20 736.00,109.20 743.00,114.20 731.00,115.20" fill="#0e7338"/>
-<text x="25" y="267" font-size="29" fill="#e8f5ec">29</text>
+<polygon points="739.00,129.20 751.00,128.20 751.00,130.20 739.00,131.20" fill="#182820"/>
+<polygon points="744.00,123.20 751.00,128.20 751.00,130.20 744.00,125.20" fill="#15221b"/>
+<polygon points="732.00,124.20 744.00,123.20 751.00,128.20 739.00,129.20" fill="#23352d"/>
+<text x="25" y="267" font-size="29" fill="#e8f5ec">30</text>
 <text x="25" y="291" font-size="15" fill="#afc2b6">Contributions</text>
-<text x="290" y="267" font-size="29" fill="#e8f5ec">21</text>
+<text x="290" y="267" font-size="29" fill="#e8f5ec">22</text>
 <text x="290" y="291" font-size="15" fill="#afc2b6">Commit contributions</text>
 <text x="575" y="267" font-size="29" fill="#e8f5ec">11</text>
 <text x="575" y="291" font-size="15" fill="#afc2b6">Active days</text>
@@ -1116,7 +1119,7 @@
 <text x="25" y="340" font-size="17" fill="#e7f4ea">Top languages by code size</text>
 <text x="25" y="364" font-size="13" fill="#afc2b6">Public repositories · forks excluded</text>
 <circle cx="29" cy="386" r="4" fill="#00B4AB"/>
-<text x="40" y="391" font-size="14" fill="#afc2b6">Dart 48%</text>
+<text x="40" y="391" font-size="14" fill="#afc2b6">Dart 47%</text>
 <circle cx="219" cy="386" r="4" fill="#f34b7d"/>
 <text x="230" y="391" font-size="14" fill="#afc2b6">C++ 10%</text>
 <circle cx="409" cy="386" r="4" fill="#e34c26"/>
